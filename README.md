@@ -23,7 +23,7 @@ Tecnologías utilizadas:
 -Python
 -Manejo de archivos (open, read, write)
 
-Cómo usar_
+Cómo usar:
 -Ejecutar en Google Colab
 -Subir el archivo CSV
 -Ejecutar el script
