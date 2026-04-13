@@ -34,10 +34,10 @@ Resultados:
 -Mejora en la calidad de la información
 -Automatización de tareas manuales repetitivas
 
-🔒 Nota
+🔒 Nota:
 Los datos utilizados en este proyecto son ficticios o anonimizados para proteger la confidencialidad de la información.
 
-🎯 Próximas mejoras
+🎯 Próximas mejoras:
 -Implementación con pandas para procesamiento más avanzado
 -Validaciones automáticas de calidad de datos
 -Escalabilidad para múltiples archivos
