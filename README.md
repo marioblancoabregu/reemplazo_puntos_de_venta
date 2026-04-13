@@ -44,4 +44,3 @@ Los datos utilizados en este proyecto son ficticios o anonimizados para proteger
 
 👨‍💻 Autor:
 Mario Blanco Abregú
-Analista BI en transición a Ciencia de Datos
