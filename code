@@ -1,0 +1,23 @@
+def limpiar_archivo(ruta_entrada, ruta_salida):
+    reemplazos = {
+        'TIENDA_A, UBICACION': 'TIENDA_A UBICACION',
+        'TIENDA_B, UBICACION': 'TIENDA_B UBICACION',
+        'TIENDA_C, UBICACION': 'TIENDA_C UBICACION'
+    }
+
+    with open(ruta_entrada, 'r', encoding='latin-1') as file:
+        contenido = file.read()
+
+    for original, nuevo in reemplazos.items():
+        contenido = contenido.replace(original, nuevo)
+
+    with open(ruta_salida, 'w', encoding='latin-1') as file:
+        file.write(contenido)
+
+
+if __name__ == "__main__":
+    try:
+        limpiar_archivo("input.csv", "output_limpio.csv")
+        print("Archivo procesado correctamente")
+    except Exception as e:
+        print(f"Error al procesar el archivo: {e}")
