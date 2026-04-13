@@ -14,25 +14,24 @@ def limpiar_archivo(contenido):
 
     return contenido
 
-
 try:
-    # Subir archivo CSV:
+    #Subir archivo CSV:
     uploaded = files.upload()
     ruta_original = list(uploaded.keys())[0]
 
-    # Leer archivo y encontrar reeemplazos:
+    #Leer archivo y encontrar reeemplazos:
     with open(ruta_original, 'r', encoding='latin-1') as file:
         contenido = file.read()
 
-    # Procesar cambios:
+    #Procesar cambios:
     contenido_limpio = limpiar_archivo(contenido)
 
-    # Guardar archivo:
+    #Guardar archivo:
     ruta_editado = "output_limpio.csv"
     with open(ruta_editado, 'w', encoding='latin-1') as file:
         file.write(contenido_limpio)
 
-    # Descargar archivo en local:
+    #Descargar archivo en local:
     files.download(ruta_editado)
 
     print("Archivo procesado correctamente")
