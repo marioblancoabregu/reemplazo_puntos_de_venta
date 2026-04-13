@@ -6,7 +6,7 @@ Este proyecto consiste en la automatización de limpieza de datos en archivos CS
 El objetivo es corregir inconsistencias en campos de texto que pueden afectar el análisis y procesamiento de información.
 
 Problema:
-En muchos procesos de negocio, los datos provenientes de distintas fuentes presentan errores de formato, como caracteres incorrectos o separadores mal ubicados.
+En muchos procesos de negocio los datos provenientes de distintas fuentes presentan errores de formato como caracteres incorrectos o separadores mal ubicados.
 Estos errores generan problemas en:
 -Procesamiento de datos
 -Integración de información
